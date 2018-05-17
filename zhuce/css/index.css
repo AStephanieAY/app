@@ -1,0 +1,199 @@
+.box{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /*background: #f5dfbf;*/
+
+}
+.box .pic{
+    width: 2.82rem;
+    height: 2.82rem;
+    background-image: url("../img/tu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1.26rem;
+}
+.box .word{
+    width: 4.5rem;
+    height: 0.48rem;
+    color: #c2bcbc;
+    font-size: 0.3rem;
+    margin-top: 0.3rem;
+    text-align: center;
+}
+.box .pic1{
+    width: 2.26rem;
+    height: 0.25rem;
+    background-image: url("../img/tuyuan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0.1rem;
+}
+.box .pic1 span{
+    display: block;
+    width: 2.26rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    font-size: 0.18rem;
+    text-align: center;
+    color: #d23a41;
+}
+.box .tab{
+    width: 5rem;
+    height: 4.55rem;
+    border-radius: 0.5rem;
+    background: #d23a41;
+    margin-top: 1rem;
+    box-shadow: 0 0 0.02rem 0.05rem rgba(248,97,97,0.5) ;
+}
+.box .tab .hezi{
+    width: 6rem;
+    height: 4.55rem;
+    border-radius: 0.5rem;
+    background: #ffffff;
+    margin-top: 0.2rem;
+    margin-left: -0.45rem;
+    box-shadow: 0 0 0.02rem 0.05rem rgba(222,222,222,0.5) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.box .tab .hezi .btn{
+    width: 5.76rem;
+    height: 0.8rem;
+    /*background: #f5dfbf;*/
+    /*margin-top: -4rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box .tab .hezi .btn .left{
+    width: 0.2rem;
+    height: 0.2rem;
+    background: #d23a41;
+    border-radius: 50%;
+    margin-right:0.2rem;
+}
+.box .tab .hezi .btn .right{
+    width: 0.2rem;
+    height: 0.2rem;
+    background: #c2bcbc;
+    border-radius: 50%;
+}
+.box .tab .hezi .he1{
+    width: 5.4rem;
+    height: 0.9rem;
+    /*background: green;*/
+    display: flex;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+.box .tab .hezi .he1 .he1left{
+    width: 0.26rem;
+    height: 0.12rem;
+    background: #84ccc9;
+    box-shadow: 0 0 0.02rem 0.05rem rgba(132,204,201,0.5) ;
+    margin-left: 0.2rem;
+}
+.box .tab .hezi .he1 .he1right{
+    flex-grow: 1;
+    /*width: 2.47rem;*/
+    height: 0.9rem;
+    /*background: blue;*/
+    border-bottom: 0.02rem solid #e9e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box .tab .hezi .he1 .bbb{
+    width: 2.47rem;
+}
+.box .tab .hezi .he1 .he1right input{
+    border: none;
+    margin-left: 0.2rem;
+    outline:medium;
+}
+.box .tab .hezi .he1 .he1right .tu{
+    width: 0.3rem;
+    height:0.44rem ;
+    background-image: url("../img/phone.png");
+    background-position: center;
+    background-size: cover;
+}
+.box .tab .hezi .he1 .he1right .tu1{
+    width: 1.5rem;
+    height:0.4rem ;
+    background: #ec6941;
+    border-radius: 0.3rem;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #ffffff;
+}
+.box .tab .hezi .he1 .he1right .tu2{
+    width: 0.3rem;
+    height:0.33rem ;
+    background-image: url("../img/mima.png");
+    background-position: center;
+    background-size: cover;
+}
+.box .tab .hezi .he1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .tab .hezi .he1 a .iconfont{
+    font-size: 0.3rem;
+    color: #d23a41;
+    margin-left: 0.17rem;
+}
+.box .tab .hezi .he1 .right1 {
+    border: none;
+}
+.box .tab .hezi .duigou{
+    display: block;
+    width: 2rem;
+    height: 0.55rem;
+    background: #e6e6e7;
+    border-radius: 0.3rem;
+    background-image: url("../img/duigou.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position: absolute;
+    bottom: -0.3rem;
+}
+.box .tiaokuan{
+    width: 100%;
+    height: 0.4rem;
+    /*background: #58c646;*/
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box .tiaokuan .tiao{
+    width: 1.2rem;
+    height: 0.04rem;
+    background: #dddddd;
+}
+.box .tiaokuan a{
+    display: block;
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+    border:0.03rem solid #edb0b3;
+    background: #d23a41;
+    box-sizing: border-box;
+}
+.box .tiaokuan span{
+    font-size: 0.2rem;
+    color: #dddddd;
+}

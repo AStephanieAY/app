@@ -1,0 +1,197 @@
+.top{
+    width: 100%;
+    height: 3.7rem;
+    background-image: url("../img/juxing.png");
+    background-size: cover;
+}
+.top i{
+    width: 100%;
+    height: 0.8rem;
+    color: #ffffff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.5rem;
+}
+.top ul {
+    width: 100%;
+    height: 1.74rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+.top ul .box{
+    display: flex;
+    justify-content: space-between;
+}
+.top ul .box i{
+    width: 0.23rem;
+    height: 0.33rem;
+    font-size: 0.3rem;
+}
+.top ul li{
+    width: 100%;
+    height: 0.58rem;
+    line-height: 0.58rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.top ul li span{
+    width: 0.7rem;
+    height: 0.3rem;
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+.songda{
+    width: 7.02rem;
+    height: 2.46rem;
+    background: #ffffff;
+    border: 1px solid #e2dddd;
+    border-radius: 0.5rem;
+    margin: 0 0.24rem;
+    margin-top:-0.2rem;
+    box-shadow: 0 0 0.46rem 0.05rem rgba(233,161,165,0.5);
+}
+.songda .shang{
+    width: 6.48rem;
+    height: 50%;
+    /*background: #d23a41;*/
+    border-bottom: 1px solid #e9e8e8;
+    margin-left: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.songda .shang span{
+    font-size: 0.24rem;
+    text-align: center;
+}
+.songda .xia{
+    width: 6.48rem;
+    height: 50%;
+    margin-left: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.songda .xia span{
+    font-size: 0.24rem;
+    text-align: center;
+}
+.songda .txt5{
+    color:#d23a41;
+}
+.zhifu{
+    width: 100%;
+    height: auto;
+    /*background: #58c646;*/
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.02rem solid rgba(247,219,220,0.5);
+}
+.zhifu .box{
+    width: 6.64rem;
+    height: 1.2rem;
+    /*background: #f5dfbf;*/
+    margin-left: 0.2rem;
+    border-bottom: 0.01rem solid #a7a7a7;
+    font-size: 0.24rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.zhifu .box1{
+    justify-content: center;
+    position: relative;
+}
+.zhifu .box1 .iconfont{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    right: 0;
+    top: 0.43rem;
+}
+.zhifu .box2{
+    display: flex;
+}
+.zhifu .box2 .pic{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url("../img/yuan.png");
+    background-size: cover;
+}
+.zhifu .box2 .hezi{
+    flex-grow: 1;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.2rem;
+}
+.zhifu .box2 .hezi .icon{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url("../img/xuanze.png");
+}
+.zhifu .box2 .hezi a{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url("../img/xuanze1.png");
+    background-size: cover;
+}
+.zhifu .box2 .pic1{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url("../img/zhifubao.png");
+    background-size: cover;
+}
+.zhifu .box2 .pic2{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url("../img/habei.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.zhifu .box2 .pic3{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url("../img/yinhangka.png");
+    background-size: cover;
+}
+.zhifu .box2 .pic4{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url("../img/weixin.png");
+    background-size: cover;
+}
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    padding: 0 0 0 0.24rem;
+    background: #4c4848;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content:space-between ;
+}
+.tab .box{
+    width: 0.9rem;
+    height: 100%;
+    font-size: 0.3rem;
+    line-height: 0.98rem;
+    color: #ffffff;
+}
+.tab .box1{
+    width: 2.24rem;
+    height: 100%;
+    background: #58c646;
+    line-height: 0.98rem;
+    font-size: 0.3rem;
+    text-align: center;
+}

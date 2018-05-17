@@ -1,0 +1,217 @@
+.top{
+    width: 100%;
+    height: 3.7rem;
+    background-image: url("../img/juxing.png");
+    background-size: cover;
+}
+.top i{
+    width: 100%;
+    height: 0.8rem;
+    color: #ffffff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.5rem;
+}
+.top ul {
+    width: 100%;
+    height: 1.74rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+.top ul .box{
+    display: flex;
+    justify-content: space-between;
+}
+.top ul .box i{
+    width: 0.23rem;
+    height: 0.33rem;
+    font-size: 0.3rem;
+}
+.top ul li{
+    width: 100%;
+    height: 0.58rem;
+    line-height: 0.58rem;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.top ul li span{
+    width: 0.7rem;
+    height: 0.3rem;
+    border: 1px solid #fff;
+   color: #ffffff;
+}
+.songda{
+    width: 7.02rem;
+    height: 2.46rem;
+    background: #ffffff;
+    border: 1px solid #e2dddd;
+    border-radius: 0.5rem;
+    margin: 0 0.24rem;
+    margin-top:-0.2rem;
+    box-shadow: 0 0 0.46rem 0.05rem rgba(233,161,165,0.5);
+}
+.songda .shang{
+    width: 6.48rem;
+    height: 50%;
+    /*background: #d23a41;*/
+    border-bottom: 1px solid #e9e8e8;
+    margin-left: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.songda .shang span{
+    font-size: 0.24rem;
+    text-align: center;
+}
+.songda .xia{
+    width: 6.48rem;
+    height: 50%;
+    margin-left: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.songda .xia span{
+    font-size: 0.24rem;
+    text-align: center;
+}
+.songda .txt5{
+    color:#d23a41;
+}
+.xiangqing{
+    width: 7.02rem;
+    height: 4.6rem;
+    background: #ffffff;
+    border: 1px solid #e2dddd;
+    border-radius: 0.5rem;
+    margin: 0 0.24rem;
+    box-shadow: 0 0 0.46rem 0.05rem rgba(233,161,165,0.5);
+    margin-top: 0.3rem;
+}
+.xiangqing .box{
+    width:6.48rem ;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 0.24rem;
+    margin-left: 0.2rem;
+}
+.xiangqing .box1{
+    height: 0.9rem;
+    line-height: 0.9rem;
+    font-weight:bold
+}
+.xiangqing .box2{
+    height: 1.8rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.xiangqing .box2 .foodpic{
+    width: 1.1rem;
+    height: 1.1rem;
+    background: #5d5b5b;
+    background-image: url("../img/yuyuyu.png") ;
+    background-size: cover;
+}
+.xiangqing .box2 .foodpic .word2{
+    width: 2rem;
+    height: 100%;
+    margin-left: 1.5rem;
+    line-height: 1.8rem;
+    margin-top: -0.4rem;
+}
+.xiangqing .box2 span{
+    width: 1.25rem;
+}
+.xiangqing .box3{
+    height: 0.97rem;
+    line-height: 0.97rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xiangqing .box3 span{
+    width: 1rem;
+    height: 100%;
+}
+.xiangqing .box3 .txt6{
+    width: 1.6rem;
+    height: 100%;
+    font-weight:bold
+}
+.xiangqing .box4{
+    height: 0.93rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xiangqing .box4 span{
+    width: 1rem;
+    height: 100%;
+    line-height: 0.93rem;
+}
+.xiangqing .box4 span:nth-child(2){
+    font-weight: bold;
+}
+.beizhu{
+    width: 7.02rem;
+    height: 2.46rem;
+    background: #ffffff;
+    border: 1px solid #e2dddd;
+    border-radius: 0.5rem;
+    margin: 0 0.24rem;
+    margin-top:0.3rem;
+    box-shadow: 0 0 0.46rem 0.05rem rgba(233,161,165,0.5);
+}
+.beizhu .top1{
+    width: 6.48rem;
+    height: 50%;
+    border-bottom: 1px solid #e9e8e8;
+    margin-left: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beizhu .top1 span{
+    font-size: 0.24rem;
+    text-align: center;
+}
+.beizhu .bot{
+    width: 6.48rem;
+    height: 50%;
+    margin-left: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beizhu .bot span{
+    font-size: 0.24rem;
+    text-align: center;
+}
+.tab{
+    width: 100%;
+    height: 0.98rem;
+    padding: 0 0 0 0.24rem;
+    background: #4c4848;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content:space-between ;
+}
+.tab .box{
+    width: 0.9rem;
+    height: 100%;
+    font-size: 0.3rem;
+    line-height: 0.98rem;
+    color: #ffffff;
+}
+.tab .box1{
+    width: 2.24rem;
+    height: 100%;
+    background: #58c646;
+    line-height: 0.98rem;
+    font-size: 0.3rem;
+    text-align: center;
+}

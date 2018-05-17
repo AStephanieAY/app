@@ -1,0 +1,101 @@
+.top{
+    width: 100%;
+    height: 5rem;
+    background-image: url("../img/juxing.png");
+    background-size: cover;
+}
+.bottom{
+    width: 100%;
+    height: 8.34rem;
+    background: #ffffff;
+
+}
+.bottom .tab{
+    width: 6.42rem;
+    height: 1.52rem;
+    border-bottom: 0.02rem solid #d6d2d2;
+   margin-left: 0.5rem;
+    overflow: hidden;
+}
+.bottom .tab .pic{
+    width: 0.73rem;
+    height: 0.65rem;
+    background-image: url("../img/yuan.png");
+    background-size: cover;
+    margin-top: 0.3rem;
+    margin-left: 2rem;
+
+}
+.bottom .tab .TXT{
+    display: block;
+    width: 1.2rem;
+    height: 0.4rem;
+    font-size: 0.26rem;
+    margin-top: -0.54rem;
+    margin-left: 3rem;
+}
+.bottom .tab .TXT1{
+    display: block;
+    width: 3.2rem;
+    height: 0.4rem;
+    font-size: 0.26rem;
+    color: #bcb8b8;
+    margin-top: 0.1rem;
+    margin-left: 1.82rem;
+}
+.bottom .tab a i{
+    display: block;
+    font-size: 0.3rem;
+    margin-top: -0.87rem;
+    margin-left: 6rem;
+}
+.bottom .center{
+    width: 100%;
+    height: 2rem;
+    font-size: 0.4rem;
+    color: #d23a41;
+    text-align: center;
+    line-height: 2rem;
+}
+.bottom .center1{
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.3rem;
+    color: #d23a41;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.bottom .picdui{
+    width: 1.24rem;
+    height: 1.24rem;
+    background-image: url("../img/dui.png");
+    background-size: cover;
+    margin-left: 3.02rem;
+    margin-top: 1rem;
+}
+.dibu{
+    display: block;
+    width: 2.3rem;
+    height: 0.63rem;
+    background-image: url("../img/yuan2.png");
+    background-size: cover;
+    font-size: 0.26rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.63rem;
+    margin-left:1rem;
+    margin-top: 0.61rem;
+}
+.dibu1{
+    display: block;
+    width: 2.3rem;
+    height: 0.63rem;
+    background-image: url("../img/yuan2.png");
+    background-size: cover;
+    font-size: 0.26rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.63rem;
+    margin-left:4.2rem;
+    margin-top: -0.61rem;
+}
